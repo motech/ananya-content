@@ -3,7 +3,7 @@
 # It converts all the .wav files(except for one with "prompt" in their name) in the "audio" folder
 
 audioDir=`pwd`"/audio"
-audioTestDir=$audioDir" test"
+audioTestDir=$audioDir"Test"
 soxDir="tools/sox-14-3-2"
 
 IFS=$'\n'
